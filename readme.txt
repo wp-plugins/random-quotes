@@ -1,6 +1,7 @@
 === Random Quotes ===
 Contributors: srcoley
 Tags: quotes, quotations
+Donate link: http://twitter.com/srcoley
 Requires at least: 2.0.2
 Tested up to: 2.9.2
 Stable tag: trunk
@@ -34,3 +35,8 @@ No, this plugin does not support widgets in this version. Perhaps the next.
 
 = 1.0 =
 * This is the first version
+
+== Upgrade Notice ==
+
+= 1.0 =
+There's no new version to upgrade to!
