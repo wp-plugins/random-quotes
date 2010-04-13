@@ -27,6 +27,8 @@ No, this plugin does not support widgets in this version. Perhaps the next.
 
 == Screenshots ==
 
+1. This is a portion of the admin section for Random Quotes.
+2. This is an implementation of the Random Quotes plugin.
 
 == Changelog ==
 
