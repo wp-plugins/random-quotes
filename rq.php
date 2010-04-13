@@ -1,11 +1,11 @@
 <?php
 	/*
 	Plugin Name: Random Quotes
-	Plugin URI: http://srcoley.com/random-quotes.zip
+	Plugin URI: http://wordpress.org/extend/plugins/random-quotes/
 	Description: Lets you manage and display random quotations
 	Version: 1.0
 	Author: Stephen Coley
-	Author URI: http://srcoley.com
+	Author URI: http://twitter.com/srcoley
 
 	Copyright 2010  Stephen Coley  (email : stephen@srcoley.com)
 
