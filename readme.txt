@@ -42,3 +42,6 @@ No, this plugin does not support widgets in this version. Perhaps the next.
 
 = 1.0 =
 There's no new version to upgrade to!
+
+= 1.1 =
+Fixes "You do not have sufficient permissions to access this page" bug.
