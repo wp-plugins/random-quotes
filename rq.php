@@ -70,7 +70,7 @@
 	}
 	
 	function rq_admin_actions() {
-		add_options_page("Random Quotes", "Random Quotes", 1, "Random Quotes", "rq_admin");
+		add_options_page("Random Quotes", "Random Quotes", 1, "Random-Quotes", "rq_admin");
 	}
 	
 	

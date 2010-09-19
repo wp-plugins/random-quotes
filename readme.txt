@@ -4,7 +4,7 @@ Tags: quotes, quotations
 Donate link: http://twitter.com/srcoley
 Requires at least: 2.0.2
 Tested up to: 2.9.2
-Stable tag: trunk
+Stable tag: 1.1
 
 Let's users manage and display quotations anywhere within their WordPress template.
 
@@ -35,6 +35,8 @@ No, this plugin does not support widgets in this version. Perhaps the next.
 
 = 1.0 =
 * This is the first version
+= 1.1 =
+* Fixed "You do not have sufficient permissions to access this page" bug.
 
 == Upgrade Notice ==
 
