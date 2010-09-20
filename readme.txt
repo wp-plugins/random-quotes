@@ -3,8 +3,8 @@ Contributors: srcoley
 Tags: quotes, quotations
 Donate link: http://twitter.com/srcoley
 Requires at least: 2.0.2
-Tested up to: 2.9.2
-Stable tag: 1.1
+Tested up to: 3.0.1
+Stable tag: 1.2
 
 Let's users manage and display quotations anywhere within their WordPress template.
 
@@ -36,12 +36,15 @@ No, this plugin does not support widgets in this version. Perhaps the next.
 = 1.0 =
 * This is the first version
 = 1.1 =
-* Fixed "You do not have sufficient permissions to access this page" bug.
+* Fixed "You do not have sufficient permissions to access this page" bug
+= 1.2 =
+* Fixed security bug
 
 == Upgrade Notice ==
 
 = 1.0 =
 There's no new version to upgrade to!
-
 = 1.1 = 
-Fixes the "You do not have sufficient permissions to access this page" bug.
+Fixes the "You do not have sufficient permissions to access this page" bug
+= 1.2 =
+Fixes a security bug
