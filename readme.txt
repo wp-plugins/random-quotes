@@ -5,6 +5,7 @@ Donate link: http://twitter.com/srcoley
 Requires at least: 2.0.2
 Tested up to: 2.9.2
 Stable tag: 1.1
+Version: 1.1
 
 Let's users manage and display quotations anywhere within their WordPress template.
 
