@@ -3,7 +3,7 @@
 	Plugin Name: Random Quotes
 	Plugin URI: http://wordpress.org/extend/plugins/random-quotes/
 	Description: Lets you manage and display random quotations
-	Version: 1.0
+	Version: 1.2
 	Author: Stephen Coley
 	Author URI: http://twitter.com/srcoley
 
