@@ -4,8 +4,8 @@ Tags: quotes, quotations
 Donate link: http://twitter.com/srcoley
 Requires at least: 2.0.2
 Tested up to: 3.0.1
-Stable tag: 1.2
-Version: 1.2
+Stable tag: trunk
+Version: 1.3
 
 Let's users manage and display quotations anywhere within their WordPress template.
 
@@ -40,6 +40,8 @@ No, this plugin does not support widgets in this version. Perhaps the next.
 * Fixed "You do not have sufficient permissions to access this page" bug
 = 1.2 =
 * Fixed security bug
+= 1.3 =
+* Changed the quotation and quotation2 fields to longtext to support longer quotations
 
 == Upgrade Notice ==
 
@@ -49,3 +51,5 @@ There's no new version to upgrade to!
 Fixes the "You do not have sufficient permissions to access this page" bug
 = 1.2 =
 Fixes a security bug
+= 1.3 =
+Update now and you'll be able to store longer quotations!
