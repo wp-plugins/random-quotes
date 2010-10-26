@@ -3,9 +3,9 @@
 	Plugin Name: Random Quotes
 	Plugin URI: http://wordpress.org/extend/plugins/random-quotes/
 	Description: Lets you manage and display random quotations
-	Version: 1.2
+	Version: 1.3
 	Author: Stephen Coley
-	Author URI: http://twitter.com/srcoley
+	Author URI: http://coley.co
 
 	Copyright 2010  Stephen Coley  (email : stephen@srcoley.com)
 
@@ -26,7 +26,7 @@
 	
 	function rq_install() {
 		global $wpdb;
-		$rq_db_version = "1.0";
+		$rq_db_version = "1.3";
 		
 		$installed_ver = get_option("rq_db_version");
 		
@@ -35,10 +35,16 @@
 			$table_name = $wpdb->prefix . "rq";
 
 			if($wpdb->get_var("SHOW TABLES LIKE '$table_name'") != $table_name) {
-				if($wpdb->query("CREATE TABLE $table_name (id mediumint(9) NOT NULL AUTO_INCREMENT, quotation varchar(200) NOT NULL, quotation2 varchar(200) NULL, UNIQUE KEY id (id));") === FALSE) {
+				if($wpdb->query("CREATE TABLE $table_name (id mediumint(9) NOT NULL AUTO_INCREMENT, quotation longtext NOT NULL, quotation2 longtext NULL, UNIQUE KEY id (id));") === FALSE) {
 					add_option("rq_db_error", "false");
 				} else {
 					add_option("rq_db_version", $rq_db_version);
+				}
+			} else {
+				if($wpdb->query("ALTER TABLE $table_name MODIFY `quotation` longtext NOT NULL;") && $wpdb->query("ALTER TABLE $table_name MODIFY `quotation2` longtext NULL;")) {
+					update_option("rq_db_version", $rq_db_version);
+				} else {
+					update_option("rq_db_version", mysql_error());
 				}
 			}
 		}
